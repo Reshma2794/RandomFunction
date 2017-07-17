@@ -1,0 +1,13 @@
+// calling the function and assigning the returned value to variable 'result'
+var result=myFunction("Reshma");
+
+//function definition goes here
+
+function myFunction(name)
+{
+
+    //using Math.random() function to generate random numbers between 6 to 15   
+    var random_number=Math.floor(Math.random() * (15 - 6) ) + 6;
+    return name+" "+random_number;
+}
+console.log(result); // displaying the result.
